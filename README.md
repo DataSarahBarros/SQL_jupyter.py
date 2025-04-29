@@ -1,10 +1,10 @@
 ### Análise de dados com SQL no Py usando Jupyter
 
-*Preparação:*
+####*Preparação:*
 
 O script inicia com a importação das bibliotecas pandas e pandasql. A biblioteca pandas fornece estruturas de dados e ferramentas para análise de dados, incluindo a capacidade de ler e manipular dados em diversos formatos. A biblioteca pandasql, por sua vez, permite a execução de consultas SQL sobre os DataFrames do pandas, facilitando a manipulação e análise dos dados utilizando a sintaxe SQL.
 
-*Leitura dos Dados:*
+####*Leitura dos Dados:*
 
 O processo de ingestão de dados é iniciado com a tentativa de localizar e abrir um arquivo externo que contém o dataset. O formato esperado para este arquivo é CSV (Comma-Separated Values), um formato comum para armazenar dados tabulares.
 
@@ -18,7 +18,7 @@ Em ambos os casos de erro, a variável dataframe_csv é atribuída ao valor None
 
 Se a leitura do arquivo for bem-sucedida, o método dataframe_csv.head() é invocado. Este método exibe as primeiras N linhas do DataFrame, permitindo uma inspeção rápida da estrutura e do conteúdo inicial dos dados, facilitando a validação da correta importação.
 
-*Análise Básica:*
+####*Análise Básica:*
 
 Após a leitura bem-sucedida dos dados (verificado pela condição dataframe_csv is not None), o script prossegue com uma operação de consulta utilizando SQL.
 
@@ -30,7 +30,7 @@ O resultado da consulta é armazenado em um novo DataFrame chamado df_resultado_
 
 Finalmente, o método df_resultado_sql.head() é utilizado para exibir as primeiras linhas do DataFrame resultante, demonstrando o resultado da operação de consulta.
 
-*Objetivo Geral: O código demonstra um fluxo de trabalho básico em análise de dados, que compreende as seguintes etapas:*
+####*Objetivo Geral: O código demonstra um fluxo de trabalho básico em análise de dados, que compreende as seguintes etapas:*
 
 Ingestão de Dados: Aquisição de dados de uma fonte externa, neste caso, um arquivo CSV.
 Transformação de Dados (Implícita): Conversão dos dados do formato CSV para uma estrutura tabular (DataFrame) adequada para análise.
