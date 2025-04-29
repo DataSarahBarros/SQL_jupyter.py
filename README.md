@@ -1,6 +1,6 @@
 ### Análise de dados com SQL no Py usando Jupyter
 
-####*Preparação:*
+**Preparação:**
 
 O script inicia com a importação das bibliotecas pandas e pandasql. A biblioteca pandas fornece estruturas de dados e ferramentas para análise de dados, incluindo a capacidade de ler e manipular dados em diversos formatos. A biblioteca pandasql, por sua vez, permite a execução de consultas SQL sobre os DataFrames do pandas, facilitando a manipulação e análise dos dados utilizando a sintaxe SQL.
 
